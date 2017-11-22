@@ -1,6 +1,6 @@
 # Virtualización de entornos con Vagrant y VirtualBox
 
-![Vagrant + VirtualBox + Ubuntu](images/vagrant_virtualbox_ubuntu.jpeg)
+![Vagrant + VirtualBox + Ubuntu](vagrant_virtualbox_ubuntu.jpeg)
 
 ## Índice
 
