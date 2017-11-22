@@ -219,7 +219,7 @@ Las operaciones más utilizadas son las siguientes:
 
 
 
-## 6. Referencias
+## 6. Referencias y ms información
 
 - Sitio web oficial de VirtualBox y página de descargas:
     - https://www.virtualbox.org/
