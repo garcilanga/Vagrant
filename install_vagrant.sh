@@ -11,3 +11,6 @@ sudo rm vagrant_1.9.1_x86_64.deb
 
 # Confirmar que Vagrant se ha instalado
 vagrant -v
+
+# Instalar el plugin de Vagrant que mantiene actualizado Guest Addittions de VirtualBox (opcional)
+vagrant plugin install vagrant-vbguest
