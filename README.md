@@ -7,9 +7,9 @@
 1. Introducción
 2. Instalación
 3. Creación y configuración de una máquina virtual
-    3.1. Máquina virtual con configuración por defecto
-    3.2. Máquina virtual pre-configurada (box)
-    3.3. Máquina virtual con una configuración determinada (Vagrantfile)
+    - Máquina virtual con configuración por defecto
+    - Máquina virtual pre-configurada (box)
+    - Máquina virtual con una configuración determinada (Vagrantfile)
 4. Acceso a la máquina virtual
 5. Operaciones con Vagrant
 6. Referencias y más información
