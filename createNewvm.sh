@@ -1,8 +1,8 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Crear un nuevo directorio y acceder a él
-mkdir newvmdir
-cd newvmdir
+mkdir newvirtual
+cd newvirtual
 
 # Crear la máquina virtual
 vagrant init
