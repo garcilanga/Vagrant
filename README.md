@@ -151,7 +151,7 @@ El fichero Vagrantfile anterior creará una máquina virtual con la siguiente co
 - Carpeta compartida: **compartida** (corresponde a _/home/user/compartida_ en la máquina anfitrión)
 - Memoria RAM: **2Gb.**
 - Nombre: **newvm**
-- Script de provisionamiento: **bootstrap.sh**
+- Script de provisionamiento: **bootstrap.sh**. Un script shell con los comandos para instalar software y configurar el sistema.
 
 ## 4. Acceso a la máquina virtual
 
