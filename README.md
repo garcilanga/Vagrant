@@ -7,12 +7,12 @@
 1. Introducción
 2. Instalación
 3. Creación y configuración de una máquina virtual
-    1. Máquina virtual con configuración por defecto
-    1. Máquina virtual pre-configurada (box)
-    1. Máquina virtual con una configuración determinada (Vagrantfile)
+    3.1. Máquina virtual con configuración por defecto
+    3.2. Máquina virtual pre-configurada (box)
+    3.3. Máquina virtual con una configuración determinada (Vagrantfile)
 4. Acceso a la máquina virtual
 5. Operaciones con Vagrant
-6. Referencias
+6. Referencias y más información
 
 ## 1. Introducción
 
@@ -217,9 +217,7 @@ Las operaciones más utilizadas son las siguientes:
     vagrant destroy
     ```
 
-
-
-## 6. Referencias y ms información
+## 6. Referencias y más información
 
 - Sitio web oficial de VirtualBox y página de descargas:
     - https://www.virtualbox.org/
