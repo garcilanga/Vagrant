@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Descargar VirtualBox
 wget http://download.virtualbox.org/virtualbox/5.2.14/virtualbox-5.2_5.2.14-112924~Ubuntu~xenial_amd64.deb
