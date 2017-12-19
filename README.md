@@ -147,7 +147,7 @@ El fichero Vagrantfile anterior creará una máquina virtual con la siguiente co
 - Sistema operativo: **Ubuntu 16.04 (Xenial) de 64 bits**
 - Ip privada: **192.168.33.3**
 - Ip pública: **192.168.33.3**
-- Redireccionamiento de puertos: **el puerto 80 de la máquina virtual es redireccionado al 8080 de la máquina anfitriona**
+- Redireccionamiento de puertos: **el puerto 80 de la máquina virtual s redirecciona al 8080 de la anfitriona**
 - Carpeta compartida: **compartida** (corresponde a _/home/user/compartida_ en la máquina anfitrión)
 - Memoria RAM: **2Gb.**
 - Nombre: **newvm**
