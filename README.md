@@ -12,7 +12,8 @@
     - Máquina virtual con una configuración determinada (Vagrantfile)
 4. Acceso a la máquina virtual
 5. Operaciones con Vagrant
-6. Referencias y más información
+6. El comando snapshot
+7. Referencias y más información
 
 ## 1. Introducción
 
@@ -216,8 +217,36 @@ Las operaciones más utilizadas son las siguientes:
     ```
     vagrant destroy
     ```
+## 6. El comando snapshot
 
-## 6. Referencias y más información
+El comando _snapshot_ permite generar y administrar instantáneas de la máquina virtual creada con Vagrant.
+
+Esto resulta de mucha utilidad cuando, por ejemplo, estamos probando configuraciones en una máquina virtual y necesitamos volver a un punto anterior sin tener que volver a instalar y configurar de nuevo la máquina virtual.
+
+La funcionalidad principal de este comando se obtiene con los subcomandos siguientes:
+
+- push y pop
+```
+vagrant snapshot push
+vagrant snapshot ppt
+```
+_push_ obtiene una imagen de la máquina virtual y la añade a la pila de imágenes, mientras que _pop_ restaura la última imagen almacenada en la pila. Estos subcomandos se utilizan cuando no es necesario asignar un nombre que identifique las imágenes. No pueden utilizarse junto con los subcomandos _save_ y _restore_.
+
+- save y restore
+```
+vagrant snapshot save _nombre\_imagen_
+vagrant snapshot restore _nombre\_imagen_
+```
+
+- list
+El subcomando _list_ muestra una lista de las imágenes almacenadas.
+
+- delete
+El subcomando _delete_ elimina de la lista una imagen por su nombre.
+
+
+
+## 7. Referencias y más información
 
 - Sitio web oficial de VirtualBox y página de descargas:
     - https://www.virtualbox.org/
