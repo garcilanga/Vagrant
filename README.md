@@ -219,9 +219,7 @@ Las operaciones más utilizadas son las siguientes:
     ```
 ## 6. El comando snapshot
 
-El comando _snapshot_ permite generar y administrar instantáneas de la máquina virtual creada con Vagrant.
-
-Esto resulta de mucha utilidad cuando, por ejemplo, estamos probando configuraciones en una máquina virtual y necesitamos volver a un punto anterior sin tener que volver a instalar y configurar de nuevo la máquina virtual.
+El comando _snapshot_ permite generar y administrar instantáneas de la máquina virtual, lo que resulta de gran utilida cuando, por ejemplo, estamos probando configuraciones en una máquina virtual y necesitamos volver a un punto anterior sin tener que volver a instalarla y configurarla.
 
 La funcionalidad principal de este comando se obtiene con los subcomandos siguientes:
 
@@ -230,21 +228,20 @@ La funcionalidad principal de este comando se obtiene con los subcomandos siguie
 vagrant snapshot push
 vagrant snapshot ppt
 ```
-_push_ obtiene una imagen de la máquina virtual y la añade a la pila de imágenes, mientras que _pop_ restaura la última imagen almacenada en la pila. Estos subcomandos se utilizan cuando no es necesario asignar un nombre que identifique las imágenes. No pueden utilizarse junto con los subcomandos _save_ y _restore_.
+El subcomando _push_ obtiene una imagen de la máquina virtual y la añade a la pila de imágenes, mientras que _pop_ restaura la última imagen almacenada en la pila. Estos subcomandos se utilizan cuando no es necesario asignar un nombre que identifique las imágenes. No pueden utilizarse junto con los subcomandos _save_ y _restore_.
 
 - save y restore
 ```
 vagrant snapshot save _nombre\_imagen_
 vagrant snapshot restore _nombre\_imagen_
 ```
+El subcomando _save_ obtiene una imagen de la máquina virtual y la añade a la pila de imágenes con un nombre determinado, mientras que _restore_ restaura una imagen con un nombre determinado. Estos subcomandos no pueden utilizarse junto con los subcomandos _push_ y _pop_.
 
 - list
 El subcomando _list_ muestra una lista de las imágenes almacenadas.
 
 - delete
-El subcomando _delete_ elimina de la lista una imagen por su nombre.
-
-
+El subcomando _delete_ elimina de la lista una imagen dada por su nombre.
 
 ## 7. Referencias y más información
 
@@ -273,3 +270,5 @@ El subcomando _delete_ elimina de la lista una imagen por su nombre.
     - https://www.howtoinstall.co/es/ubuntu/xenial/vagrant?action=remove
 - ¿Qué son las VirtualBox Guest Additions?
     - https://sliceoflinux.wordpress.com/2009/05/04/%C2%BFque-son-las-virtualbox-guest-additions/
+- Snapshot
+    - https://www.vagrantup.com/docs/cli/snapshot.html
