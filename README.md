@@ -232,8 +232,8 @@ El subcomando _push_ obtiene una imagen de la máquina virtual y la añade a la 
 
 - save y restore
 ```
-vagrant snapshot save _nombre\_imagen_
-vagrant snapshot restore _nombre\_imagen_
+vagrant snapshot save <nombre_de_imagen>
+vagrant snapshot restore <nombre_de_imagen>
 ```
 El subcomando _save_ obtiene una imagen de la máquina virtual y la guarda con un nombre determinado, mientras que _restore_ restaura una imagen con un nombre determinado. Estos subcomandos no pueden utilizarse junto con los subcomandos _push_ y _pop_.
 
@@ -245,7 +245,7 @@ El subcomando _list_ muestra una lista de las imágenes almacenadas.
 
 - delete
 ```
-vagrant snapshot delete _nombre\_imagen_
+vagrant snapshot delete <nombre_de_imagen>
 ```
 El subcomando _delete_ elimina de la lista una imagen dada por su nombre.
 
